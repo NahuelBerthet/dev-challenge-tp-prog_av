@@ -37,7 +37,6 @@ for (let ida of dataSet) {
 
 opciones.sort((a, b) => a.precioTotal - b.precioTotal)
 
-// 6. Mostramos resultados
 if (opciones.length === 0) {
   console.log("Con $800 no hay opciones de ida y vuelta")
 } else {
